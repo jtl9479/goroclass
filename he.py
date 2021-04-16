@@ -1,4 +1,4 @@
-"""
+
 a = [1, 2, 3, ['a', 'b', 'c']]
 print(a[0])
 print(a[-1])
@@ -46,17 +46,17 @@ print(a[-1][0] + a[1])
 t1=(1,2,'a','b')
 print(t1)
 del t1[0]
-print(t1)  튜플은 그 값은 바꿀수가 없다 생성,삭제,수정 불가능
+print(t1)  #튜플은 그 값은 바꿀수가 없다 생성,삭제,수정 불가능
 
-"""
-"""
+
+
 t1=(1,2,'a','b')
 t2=(3,4)
 print(t1[0:2])  #인덱싱하기
 print(t1+t2) #더하기
 print(t1*3) #곱하기
 print(len(t1)) #길이구하기
-"""
+
 #딕셔너리 {Key1:Value1, Key2:Value2, Key3:Value3, ...}
 dic = {'name':'pey', 'phone':'0119993323', 'birth': '1118'}
 print(dic)
